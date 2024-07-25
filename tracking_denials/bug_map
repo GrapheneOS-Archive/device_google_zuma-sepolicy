@@ -7,7 +7,6 @@ incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 kernel dm_device blk_file b/319403445
 mtectrl unlabeled dir b/264483752
-pixelstats_vendor sysfs file b/299553682
 shell sysfs_net file b/330081782
 ssr_detector_app default_prop file b/340722729
 system_server sysfs_batteryinfo file b/294967729
