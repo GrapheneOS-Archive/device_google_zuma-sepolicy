@@ -6,6 +6,8 @@ incidentd debugfs_wakeup_sources file b/288049561
 incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 kernel dm_device blk_file b/319403445
+modem_svc_sit modem_ml_svc_sit file b/360060606
+modem_svc_sit modem_ml_svc_sit file b/360060992
 mtectrl unlabeled dir b/264483752
 shell sysfs_net file b/330081782
 ssr_detector_app default_prop file b/340722729
@@ -17,4 +19,5 @@ vendor_init default_prop file b/315104803
 vendor_init default_prop file b/323087197
 vendor_init default_prop file b/323087490
 vendor_init default_prop property_service b/315104235
+vendor_init default_prop property_service b/359428180
 vendor_init vendor_volte_mif_off property_service b/316816642
