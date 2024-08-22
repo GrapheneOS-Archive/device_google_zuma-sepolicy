@@ -255,6 +255,9 @@ genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-11/11-0057/power_supply/pca9
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-11/11-0069/power_supply/dc/wakeup                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-11/11-0069/power_supply/main-charger/wakeup                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-11/11-0069/wakeup/wakeup                                              u:object_r:sysfs_wakeup:s0
+is_flag_enabled(RELEASE_USB_UDC_SYSFS_SELINUX_POLICY_ENABLED, `
+genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/udc/11210000.dwc3/state                                       u:object_r:sysfs_udc:s0
+')
 genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/wakeup                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/xhci-hcd-exynos.4.auto/wakeup                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/xhci-hcd-exynos.4.auto/usb1                                   u:object_r:sysfs_wakeup:s0
