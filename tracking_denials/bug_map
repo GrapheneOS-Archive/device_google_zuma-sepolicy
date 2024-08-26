@@ -1,3 +1,5 @@
+dump_modem sscoredump_vendor_data_coredump_file dir b/361725982
+dump_modem sscoredump_vendor_data_logcat_file dir b/361725982
 dumpstate app_zygote process b/288049050
 hal_bluetooth_btlinux vendor_default_prop property_service b/350832030
 hal_radioext_default radio_vendor_data_file file b/312590044
