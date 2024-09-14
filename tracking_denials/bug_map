@@ -8,12 +8,14 @@ incidentd debugfs_wakeup_sources file b/288049561
 incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 kernel dm_device blk_file b/319403445
+modem_svc_sit hal_radioext_default process b/364446415
 modem_svc_sit modem_ml_svc_sit file b/360060606
 modem_svc_sit modem_ml_svc_sit file b/360060992
 mtectrl unlabeled dir b/264483752
 shell sysfs_net file b/330081782
 ssr_detector_app default_prop file b/340722729
 system_server sysfs_batteryinfo file b/294967729
+system_server vendor_default_prop file b/366116488
 system_suspend sysfs_batteryinfo dir b/317316633
 system_suspend sysfs_touch_gti dir b/350832258
 vendor_init default_prop file b/315104235
