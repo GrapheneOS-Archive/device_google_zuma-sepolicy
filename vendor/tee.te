@@ -1,6 +1,11 @@
 # Handle wake locks
 wakelock_use(tee)
 
+binder_use(tee)
+allow tee fwk_vold_service:service_manager find;
+binder_call(tee, vold)
+binder_call(vold, tee)
+
 allow tee persist_ss_file:file create_file_perms;
 allow tee persist_ss_file:dir create_dir_perms;
 allow tee persist_file:dir r_dir_perms;
