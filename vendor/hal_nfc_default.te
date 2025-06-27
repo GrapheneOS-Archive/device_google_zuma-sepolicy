@@ -7,3 +7,7 @@ userdebug_or_eng(
 
 # SecureElement property
 set_prop(hal_nfc_default, vendor_secure_element_prop)
+
+# Added in BP2A
+allow hal_nfc_default vendor_nfc_vendor_data_file:dir rw_dir_perms;
+allow hal_nfc_default vendor_nfc_vendor_data_file:file rw_file_perms;
