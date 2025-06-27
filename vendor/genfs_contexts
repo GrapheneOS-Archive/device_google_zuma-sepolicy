@@ -351,3 +351,7 @@ genfscon sysfs /kernel/metrics/cpuidle_histogram/cpucluster_histogram     u:obje
 starting_at_board_api(202504, `
 genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/udc/11210000.dwc3/state   u:object_r:sysfs_udc:s0
 ')
+
+# Added in BP2A
+# Display - BP2A
+genfscon sysfs /devices/platform/110f0000.drmdp/drm-displayport/hdcp_negotiation                          u:object_r:sysfs_display:s0
