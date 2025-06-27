@@ -7,3 +7,7 @@ allow hal_power_default sysfs_trusty:file rw_file_perms;
 allow hal_power_default sysfs_ospm:file rw_file_perms;
 allow hal_power_default sysfs_scsi_devices_0000:file rw_file_perms;
 set_prop(hal_power_default, vendor_camera_prop);
+
+# added in BP2A
+allow hal_power_default fwk_stats_service:service_manager { find };
+binder_call(hal_power_default, stats_service_server);
