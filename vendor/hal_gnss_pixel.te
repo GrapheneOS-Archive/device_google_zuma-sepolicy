@@ -3,3 +3,6 @@ init_daemon_domain(hal_gnss_pixel)
 type hal_gnss_pixel_exec, exec_type, vendor_file_type, file_type;
 hal_server_domain(hal_gnss_pixel, hal_gnss)
 
+# Added in BP2A
+allow hal_gnss_pixel fwk_stats_service:service_manager find;
+binder_call(hal_gnss_pixel, fwk_stats_service);
