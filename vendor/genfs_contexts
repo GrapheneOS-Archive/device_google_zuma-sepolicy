@@ -355,3 +355,7 @@ genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/udc/11210000.dwc3/st
 # Added in BP2A
 # Display - BP2A
 genfscon sysfs /devices/platform/110f0000.drmdp/drm-displayport/hdcp_negotiation                          u:object_r:sysfs_display:s0
+
+# Wake up - BP2A
+genfscon sysfs /devices/platform/odm/odm:fps_touch_handler/power/wakeup                                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/odm/odm:fps_touch_handler/wakeup                                      u:object_r:sysfs_wakeup:s0
