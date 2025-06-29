@@ -215,3 +215,6 @@ is_flag_disabled(RELEASE_AVF_ENABLE_DEVICE_ASSIGNMENT, `
 /dev/dma_heap/gcma_camera-uncached                                          u:object_r:gcma_camera_heap_device:s0
 /dev/uci                                                                    u:object_r:uci_device:s0
 /dev/video12                                                                u:object_r:hw_jpg_device:s0
+
+# BP2A (akita stock image)
+/dev/fth_fd                                                                 u:object_r:fingerprint_device:s0
