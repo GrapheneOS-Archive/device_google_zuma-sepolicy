@@ -32,3 +32,4 @@ set_prop(systemui_app, debug_tracing_desktop_mode_visible_tasks_prop)
 # BP2A from akita stock image
 # Note that for other generations, it's done in platform app, but for zuma specifically, it's in systemui_app
 set_prop(systemui_app, vendor_sysuig_prop)
+get_prop(systemui_app, bluetooth_lea_mode_prop)
